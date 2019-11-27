@@ -1,0 +1,264 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+.container-main{
+	position: relative;
+	background-image: url("img/slid1.jpg");
+	height: 600px;
+	width: 1200px;
+	top: 50px;
+	 box-shadow: 0px 15px 10px -15px #111; 
+
+}
+
+ul.navbar{
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+  right: 30px;
+  top: 30px;
+}
+ul.navbar li{
+	float: left;
+	padding: 20px;
+	color: white;
+	font-size: 17px;
+}
+ul.navbar li a{
+	text-decoration: none;
+	display: block;
+	
+	}
+.navbar li a:hover{
+	color: yellow;
+	
+	}
+.navbar-logo a img{
+	position: absolute;
+	left: 50px;
+    top: 30px;
+    height: 40px;
+    width:40px;
+}
+.text-platform{
+	position: absolute;
+	top: 180px;
+	right: 70px;
+	color: white;
+	font-size: 18px;
+}
+.text-platform button{
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+
+}
+.text-slid{
+	position: absolute;
+	top: 160px;
+	left: 50px;
+	color: white;
+
+
+}
+.text-slid p{
+	color: white;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-slid{
+	position: absolute;
+	bottom: 180px;
+	left: 30%;
+}
+ .btn-slid1{
+ 	border-color: 1px solid #6600ff;
+	border-radius: 25px;
+	padding: 8px 70px 8px 70px;
+	margin: 10px;
+	background-color: #944dff;
+	color: white;
+	}
+.btn-slid1 i{
+	 	padding-right:10px;
+	 }
+.text-slid-buttom{
+	width: 1200px;
+	height: 50px;
+	background-color: #8533ff;
+	position: absolute;
+	bottom: 0;
+	padding: 0;
+	margin:0 auto;
+	color: white;
+	
+}
+.services{
+ box-shadow: 0px 15px 10px -15px #111; 
+margin-bottom: 20px;
+}
+
+#column{
+border:1px solid grey;
+border-radius: 25px;
+margin: 20px;
+padding: 25px;
+color: grey;
+font-size: 17px;
+}
+
+#btn-viewdetails{
+border-radius: 25px;
+background-color:#6600cc;
+padding: 10px 70px 10px 70px;
+color: white;
+font-size: 17px;
+}
+
+.carousel {
+	background:#f0f0f0;
+	border-radius: 25px;
+	border:1px solid grey;
+	height: 250px;
+	width: 700px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-caption{
+	color: black;
+}
+
+#newsletter{
+background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+height: 100%;
+width: auto;
+padding: 20px;
+color: white;
+}
+.input-group-btn{
+	background-color: white;
+	color: black; 
+	width: 70px;
+	height: 30px;
+}
+.footer{
+	background-color: #000;
+	padding: 30px;
+
+}
+.carousel-indicators{
+	color:black;
+}
+.carousel{
+	max-width: 100%;
+	height: 200px;
+
+}
+.vertical { 
+            border-left: 4px solid black; 
+            height: 20px; 
+            left: 50%; 
+        } 
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+p {
+    margin: 0 0 0px;
+}
+
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0 50px 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+
+}
+ul.timeline > li a{
+	padding-right: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+ul.timeline-seller {
+    list-style-type: none;
+    position: relative;
+    margin: 20px;
+
+}
+ul.timeline-seller:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 95%;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline-seller > li {
+   margin: 20px 0 50px 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 30px;
+
+}
+ul.timeline-seller > li a{
+	padding-right: 20px;
+}
+ul.timeline-seller > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 93.5%;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+
+}
+
+.timeline-main
+{
+	 box-shadow: 0px 15px 10px -15px #111; 
+}
+
+
